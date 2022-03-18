@@ -16,6 +16,8 @@ body:
         - Team issue
         - Project issue
       multiple: false
+    validations:
+      required: true
 
 
   - type: dropdown
@@ -29,6 +31,8 @@ body:
         - Node agent
         - Networking
       multiple: true
+    validations:
+      required: true
 
   - type: textarea
     id: 
@@ -48,15 +52,12 @@ body:
         - [ ]
         - [ ]
         - [ ]
-        - [ ]
     validations:
       required: true
 
-  - type: checkboxes
-    id: terms
+  - type: textarea
+    id: anything-else
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Anything else ?
+      description: Is there anything more you would like to add ?
+      
