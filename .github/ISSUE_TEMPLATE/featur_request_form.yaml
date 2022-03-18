@@ -44,7 +44,7 @@ body:
     attributes:
       label: Task list
       description: Please provide a task list for this issue.
-      placeholder: |
+      value: |
         - [ ]
         - [ ]
         - [ ]
