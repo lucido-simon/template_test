@@ -1,4 +1,15 @@
-## Related issue :
+## Is it a team PR or a project PR ?
+- [ ] Team PR
+- [ ] Project PR
+
+## Related teams :
+- [ ] Cluser client
+- [ ] Cluster controller
+- [ ] Cluster scheduler
+- [ ] Node agent
+- [ ] Networking
+
+## Related issues :
 Close #
 or
 Related issues : #
