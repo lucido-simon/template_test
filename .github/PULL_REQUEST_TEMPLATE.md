@@ -9,9 +9,8 @@ Related issues : #
 
 ## Tasks lists :
 
-- [ ]
- - [ ]
- - [ ]
-- [ ]
- - [ ]
-
+- [ ] Create cluster command
+    - [ ] Command line parsing
+- [ ] Delete cluster command
+    - [ ] Understanding what the user wants
+    - [ ] Dealing with errors
