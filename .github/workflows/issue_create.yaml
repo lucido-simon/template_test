@@ -1,6 +1,9 @@
 name: Add labels to issue
 on:
-  issues:
+  issues: 
+    types:
+      - opened
+  pull_request: 
     types:
       - opened
 
@@ -9,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Add labels
-        uses: lucido-simon/team-parser-action@master
+        uses: do3-2021/kudo-team-parser-action@pr-parsing
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
