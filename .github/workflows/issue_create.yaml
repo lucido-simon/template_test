@@ -1,0 +1,14 @@
+name: Add labels to issue
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  teams:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add labels
+        uses: lucido-simon/team-parser-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
