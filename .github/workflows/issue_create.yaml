@@ -1,4 +1,4 @@
-name: Add labels to issue
+name: Add labels to issue and PR
 on:
   issues: 
     types:
@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Add labels
-        uses: do3-2021/kudo-team-parser-action@pr-parsing
+        uses: do3-2021/kudo-team-parser-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
